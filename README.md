@@ -113,7 +113,7 @@ The same run at normal speed is in the repo as [real-arm-stacking.mp4](media/dem
 
 The full sequence with captions:
 
-https://github.com/user-attachments/assets/05fba164-cdda-47d7-90cd-48cc8ba231ed
+https://github.com/user-attachments/assets/0ffe8839-07a8-4d8d-891d-d1b506f543b4
 
 The same video is in the repo as [dobot-pick-and-place-sim.mp4](media/demo/dobot-pick-and-place-sim.mp4) (40 s).
 
