@@ -1,3 +1,5 @@
+<sub>Copyright 2026 Mustafa Khodir. All rights reserved. Photos, videos and designs may not be reused without permission.</sub>
+
 # DoBot Magician Pick and Place Arm
 
 A four axis desktop robot arm that picks up 3D printed pieces with a suction cup and stacks them on top of each other. I modelled the arm's kinematics in MATLAB first, then taught the real DoBot Magician the moves by hand, then wrote a Python script that runs the whole stacking sequence on its own.
@@ -51,11 +53,11 @@ Inverse kinematics goes the other way with `ikine`. Because the arm only has fou
 
 ![Forward kinematics script in MATLAB with the arm plotted](media/figures/forward-kinematics-matlab.png)
 
-*Forward kinematics: the transforms for both poses and the arm plotted.*
+*Forward kinematics: the transforms for both poses and the arm plotted. The code is blurred because the source is private.*
 
 ![Inverse kinematics script in MATLAB with the arm plotted](media/figures/inverse-kinematics-matlab.png)
 
-*Inverse kinematics: the solver recovering the joint angles for a target pose.*
+*Inverse kinematics: the solver recovering the joint angles for a target pose. The code is blurred.*
 
 ### Trajectory planning (MATLAB)
 
@@ -63,7 +65,7 @@ The trajectory script uses `jtraj` to plan the move from the home pose to the pi
 
 ![Trajectory planning script in MATLAB with the arm plotted along the path](media/figures/trajectory-planning-matlab.png)
 
-*Trajectory planning with jtraj from the home pose to the pick pose.*
+*Trajectory planning with jtraj from the home pose to the pick pose. The code is blurred.*
 
 ### Teaching and playback (DobotStudio)
 
@@ -87,10 +89,11 @@ Both the manual teaching and the Python routine completed the stacking task.
 
 ## Source code
 
-The full source code is kept in a private repository. To review it, [email me](mailto:mkhodir77@gmail.com?subject=Code%20access%3A%20dobot-robotic-arm) with your name, company and GitHub username, and I will give you read access.
+The source code is private. Selected parts are available to employers for technical review. Contact me at [mkhodir77@gmail.com](mailto:mkhodir77@gmail.com).
 
 ## What's in this repo
 
+- `outline/` outline files for the main programs: function names, structure and comments only. The working logic is in the private repository.
 - `media/photos/` photos of the arm, the teaching session and the stacked pieces.
 - `media/cad/` the three printed pieces as STL files, which GitHub opens in a 3D viewer.
 - `media/figures/` the MATLAB plots, the DobotStudio screen and the TinkerCAD design of the pieces.
@@ -104,9 +107,9 @@ The full source code is kept in a private repository. To review it, [email me](m
 
 The same run at normal speed is in the repo as [real-arm-stacking.mp4](media/demo/real-arm-stacking.mp4) (44 s, no sound).
 
-**Pick and place (simulation).** My D-H model of the DoBot running dobot_pick_and_place.py unchanged, one recorded position at a time, with the joint angles solved by inverse kinematics on the model. The table height and suction cup length are worked out from the recorded pick heights.
+**Pick and place (simulation).** My D-H model of the DoBot running dobot_pick_and_place.py unchanged, one recorded position at a time, with the joint angles solved by inverse kinematics on the model. The table height and suction cup length are worked out from the recorded pick heights. The script panel is blurred because the source is private.
 
-![Simulated DoBot stacking three pieces next to the script line it is running](media/demo/dobot-pick-and-place-sim.gif)
+![Simulated DoBot stacking three pieces, with the script panel blurred](media/demo/dobot-pick-and-place-sim.gif)
 
 The full sequence with captions:
 
@@ -116,4 +119,4 @@ The same video is in the repo as [dobot-pick-and-place-sim.mp4](media/demo/dobot
 
 The full project report is available on request.
 
-Copyright 2026 Mustafa Khodir. All rights reserved.
+Copyright 2026 Mustafa Khodir. All rights reserved. Photos, videos and designs may not be reused without permission.
