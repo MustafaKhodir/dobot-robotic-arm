@@ -1,5 +1,3 @@
-<sub>Copyright 2026 Mustafa Khodir. All rights reserved. Photos, videos and designs may not be reused without permission.</sub>
-
 # DoBot Magician Pick and Place Arm
 
 A four axis desktop robot arm that picks up 3D printed pieces with a suction cup and stacks them on top of each other. I modelled the arm's kinematics in MATLAB first, then taught the real DoBot Magician the moves by hand, then wrote a Python script that runs the whole stacking sequence on its own.
